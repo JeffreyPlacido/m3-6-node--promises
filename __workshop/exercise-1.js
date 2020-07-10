@@ -9,7 +9,7 @@ const makeAllCaps = (array) => {
     if(array.every(word => typeof word === 'string')) {
     resolve(array.map(word => word.toUpperCase()))
     } else {
-    reject(`Looks llike not everythings a string chief!`)
+    reject(`Looks like not everythings a string chief!`)
     }
   })
   return myPromise
