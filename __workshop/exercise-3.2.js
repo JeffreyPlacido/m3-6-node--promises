@@ -6,8 +6,8 @@ require('dotenv').config();
 const getPositionFromAddress = (address) => {
   const requestObj = {
     q: address,
-    key: process.env.OPENCAGE_API_KEY,
-    //or key: 'b4067c8a1a87455d8ca0f9569d9aed05',
+    key: '',
+    
   }
 
   return opencage
